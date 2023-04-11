@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,800&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.14.0/css/all.css"
+      integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc"
+      crossorigin="anonymous"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!--navbar-->
+    <nav class="navbar">
+      <div class="navbar__container">
+        <a href="#home" id="navbar__logo">Faiq Store</a>
+        <div class="navbar__toggle" id="mobile-menu">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
+        <ul class="navbar__menu">
+          <li class="navbar__item">
+            <a href="#home" class="navbar__links" id="home-page">Home</a>
+          </li>
+          <li class="navbar__item">
+            <a href="#about" class="navbar__links" id="about-page">About</a>
+          </li>
+          <li class="navbar__item">
+            <a href="#gallery" class="navbar__links" id="gallery-page"
+              >Gallery</a
+            >
+          </li>
+          <li class="navbar__item">
+            <a href="#iframe" class="navbar__links" id="iframe-page">Videos</a>
+          </li>
+          <li class="navbar__btn">
+            <a href="#sign-up" class="button" id="signup">Sign Up</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <!--Hero-->
+    <div class="hero" id="home">
+      <div class="hero__container">
+        <h1 class="hero__heading">Welcome To <span>Faiq Store</span></h1>
+        <p class="hero__description">by Faiq</p>
+        <button class="main__btn">
+          <a href="#">Explore</a>
+        </button>
+      </div>
+    </div>
+    <!--About-->
+    <div class="main" id="about">
+      <div class="main__container">
+        <div class="main__img--container">
+          <div class="main__img--card"><i class="fas fa-layer-group"></i></div>
+        </div>
+        <div class="main__content">
+          <h1>What do we do?</h1>
+          <h2>We help ship Cars worldwide</h2>
+          <p>Schedule a call to learn more about our services</p>
+          <button class="main__btn"><a href="#home">Back</a></button>
+        </div>
+      </div>
+    </div>
+    <!--Gallery-->
+    <div class="gallery" id="gallery">
+      <div class="gallery__container">
+        <div class="gallery__img--container">
+          <div class="gallery__img--card">
+            <div class="slider">
+              <img src="./Image/image1(r34).jpg" class="slide" />
+              <img src="./Image/image2(s15).jpg" class="slide" />
+              <img src="./Image/image3(240sx).jpg" class="slide" />
+              <img src="./Image/image4(nsx).jpg" class="slide" />
+              <img src="./Image/image5(mk4).jpg" class="slide" />
+            </div>
+            <i class="fas fa-layer-group"></i>
+          </div>
+        </div>
+        <div class="gallery__content">
+          <h1>Gallery</h1>
+          <h2>Photo Slide</h2>
+          <p>Some of the cars we sell</p>
+          <button class="gallery__btn"><a href="#home">Back</a></button>
+        </div>
+      </div>
+    </div>
+    <!--Videos-->
+    <div class="video" id="iframe">
+      <div class="video__container">
+        <section id="youtube" class="youtube">
+          <h2><span>V</span>ideo</h2>
+          <p>events</p>
+          <div class="row">
+            <iframe src="https://www.youtube.com/embed/bnKj_KICDY0"> </iframe>
+          </div>
+          <button class="main__btn"><a href="#">Back</a></button>
+        </section>
+      </div>
+    </div>
+    <!-- Features Section -->
+    <div class="main" id="sign-up">
+      <div class="main__container">
+        <div class="main__content">
+          <h1>Join Our Team</h1>
+          <h2>Sign Up Today</h2>
+          <p>See what makes us different</p>
+          <button class="main__btn"><a href="#">Sign Up</a></button>
+        </div>
+        <div class="main__img--container">
+          <div class="main__img--card" id="card-2">
+            <i class="fas fa-users"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--Footer-->
+    <div class="footer__container">
+      <section class="social__media">
+        <div class="social__media--wrap">
+          <div class="footer__logo">
+            <a href="#" id="footer__logo">Faiq Store</a>
+          </div>
+          <p class="website__rights">©Copyright.FaiqXZ All rights reserved</p>
+          <div class="social__icons">
+            <a href="#" class="social__icon--link"
+              ><i class="fab fa-facebook"></i
+            ></a>
+            <a
+              href="https://www.instagram.com/faiq.xz/"
+              target="_blank"
+              class="social__icon--link"
+              ><i class="fab fa-instagram"></i
+            ></a>
+            <a href="#" class="social__icon--link"
+              ><i class="fab fa-youtube"></i
+            ></a>
+            <a
+              href="https://www.linkedin.com/in/al-ikhsan-faiq-494a19263/"
+              target="_blank"
+              class="social__icon--link"
+              ><i class="fab fa-linkedin"></i
+            ></a>
+            <a href="#" class="social__icon--link"
+              ><i class="fab fa-twitter"></i
+            ></a>
+          </div>
+        </div>
+      </section>
+    </div>
+    <script src="javascript.js"></script>
+  </body>
+</html>
